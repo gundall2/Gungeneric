@@ -883,7 +883,9 @@ body #book-index #indice .col-main {
    * CSS AÑADIDO POR HTML *
    ************************/
 
-		/* Vuestro CSS aquí. */
+* {
+	color: pink;
+}
 
    /************************
    * CSS AÑADIDO POR HTML *
