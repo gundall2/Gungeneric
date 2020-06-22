@@ -98,27 +98,14 @@ __webpack_require__.r(__webpack_exports__);
 /*
 *   Array con la definición de los estilos para el editor de CKEditor
 */
-const ckeStyles = [{
-  name: 'Caja 1',
-  type: 'widget',
-  widget: 'blink_box',
-  attributes: {
-    'class': 'box-1'
-  }
-}, {
-  name: 'Caja 2',
-  type: 'widget',
-  widget: 'blink_box',
-  attributes: {
-    'class': 'box-2'
-  }
-}, {
-  name: 'Énfasis',
-  element: 'span',
-  attributes: {
-    'class': 'bck-enfasis'
-  }
-}];
+const ckeStyles = [
+  {name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: {'class': 'box-1'}},
+  {name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: {'class': 'box-2'}},
+  {name: 'Caja 5', type: 'widget', widget: 'blink_box', attributes: {'class': 'box-2'}},
+  {name: 'Caja 23923', type: 'widget', widget: 'blink_box', attributes: {'class': 'box-2'}},
+  {name: 'Énfasis', element: 'span', attributes: {'class': 'bck-enfasis'}}
+  // Añadir elementos CKEditor aquí.
+];
 /* harmony default export */ __webpack_exports__["default"] = (ckeStyles);
 
 /***/ }),
